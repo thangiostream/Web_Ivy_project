@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Login ADMIN</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="mainCss.css">
+</head>
+
+<body>
+
+    <body>
+        <div id="dong_ho">
+            <span>Thời gian bây giờ là:</span>
+            <div id="thoi_gian">
+                <div>
+                    <span id="gio">00</span><span>Giờ</span>
+                    <span id="phut">00</span><span>Phút</span>
+
+                    <span id="giay">00</span><span>Giây</span>.
+
+                    <span>Ngày</span>
+
+                    <span>
+                        <script> document.write(new Date().toLocaleDateString()); </script>
+                    </span>.
+                </div>
+    </body>
+
+
+    <script>
+        function Dong_ho() {
+            var gio = document.getElementById("gio");
+            var phut = document.getElementById("phut");
+            var giay = document.getElementById("giay");
+            var Gio_hien_tai = new Date().getHours();
+            var Phut_hien_tai = new Date().getMinutes();
+            var Giay_hien_tai = new Date().getSeconds();
+            gio.innerHTML = Gio_hien_tai;
+            phut.innerHTML = Phut_hien_tai;
+            giay.innerHTML = Giay_hien_tai;
+        }
+        var Dem_gio = setInterval(Dong_ho, 1000);
+    </script>
+</body>
+
+<body>
+    <center>
+        <h2>Bạn muốn đăng nhập ADMIN</h2>
+
+        <!-- login -->
+        <span>Trước tiên, bạn cần: </span>
+        <br>
+        <br>
+
+        <div class="nut-bam"><a href="login.php"><span style="font-family: arial;">Đăng nhập</span></a>
+
+            or
+            <a href="register.php"><span style="font-family: arial;">Đăng kí</span></a>
+        </div>
+    </center>
+</body>
+
+</html>

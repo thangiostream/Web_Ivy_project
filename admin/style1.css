@@ -1,0 +1,118 @@
+.tai-khoan1 {
+    color: blue;
+}
+
+.tai-khoan2 {
+    color: red;
+}
+
+.tai-khoan3 {
+    color: yellow;
+}
+
+.tai-khoan4 {
+    color: violet;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.nut-bam a:hover {
+    background: #03A9F4 !important;
+    color: white !important;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.nut-bam a:link,
+.nut-bam a:visited {
+    /*width: fit-content;*/
+    padding: 0.5em 1em;
+    text-align: center;
+    float: inherit;
+    margin: 0em auto;
+    color: #ffffff;
+    background: #00000026;
+    border-radius: 5px;
+}
+
+.imglogo {
+    height: 84px;
+    width: 331px;
+}
+
+.header {
+    display: contents;
+}
+
+.hello {
+    padding: 0px 0px 0px 0px;
+}
+
+.css {
+    background-color: rgb(248, 248, 250);
+}
+
+li {
+    padding-top: 0px;
+}
+
+
+.name {
+    color: #43c801;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.qwer {
+    margin: 150px 150px 100px 80px;
+}
+
+form {
+    border: 10px solid #f1f1f9;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+input:hover[type="submit"] {
+    color: black;
+    opacity: 0.8;
+}
+
+background-color: #f44336;

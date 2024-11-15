@@ -1,0 +1,105 @@
+img {
+
+        width: 400px;
+}
+
+
+
+
+li {
+        list-style-type: none;
+}
+
+a {
+        text-decoration: none;
+        color: #0d8bf1;
+}
+
+body {
+        background-color: rgb(248, 248, 250);
+}
+
+
+.imglogo {
+        height: 84px;
+        width: 331px;
+}
+
+.header {
+        display: flex;
+        height: 100px;
+        width: 990px;
+}
+
+.imglogo {
+        height: 84px;
+        width: 331px;
+}
+
+.header {
+        display: flex;
+}
+
+.hello {
+        padding: 0px 0px 0px 200px;
+}
+
+.name {
+        color: #43c801;
+}
+
+
+/*...
+*/
+
+
+table {
+        border: 1px solid black;
+}
+
+/*.header_menu{
+background: white;
+position: absolute;
+border-radius: 2px;
+/*display: none;
+*/
+}
+
+
+.an_hien_menu:hover+.header_menu {
+        display: flex;
+}
+
+
+.anh_nen {
+        padding: 89px 3px 0px 13px;
+}
+
+.map {
+        display: none;
+
+}
+
+.clickmap:hover .map {
+        display: block;
+}
+
+footer {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 50px 100px;
+        background: #111;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: rgb(248, 248, 250);
+
+}
+
+footer .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+}
